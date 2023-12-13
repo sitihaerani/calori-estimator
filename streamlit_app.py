@@ -4,7 +4,6 @@ import requests
 from bs4 import BeautifulSoup
 import numpy as np
 import tensorflow as tf
-import keras
 
 model = tf.keras.models.load_model('FV (1).h5')
 
